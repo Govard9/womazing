@@ -25,3 +25,11 @@
 @import url(block/navigation/__phone-number/navigation__phone-number.css);
 @import url(block/navigation/__link-number/navigation__link-number.css);
 @import url(block/navigation/__shopping-bag/navigation__shopping-bag.css);
+
+/* Offer */
+@import url(block/offer/offer.css);
+@import url(block/offer/__main-text/offer__main-text.css);
+@import url(block/offer/__description/offer__description.css);
+@import url(block/offer/__button-block/offer__button-block.css);
+@import url(block/offer/__icon-arrow/offer__icon-arrow.css);
+@import url(block/offer/__button/offer__button.css);

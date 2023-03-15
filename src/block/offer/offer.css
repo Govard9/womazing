@@ -1,0 +1,6 @@
+.offer {
+    max-width: 563px;
+    margin: 186px 0 0 48px;
+    display: flex;
+    flex-direction: column;
+}

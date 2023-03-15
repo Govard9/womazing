@@ -1,0 +1,12 @@
+.offer__description {
+    max-width: 380px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin: 45px 0 0 0;
+}

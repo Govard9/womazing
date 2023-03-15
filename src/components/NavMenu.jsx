@@ -8,7 +8,7 @@ function Navigation() {
     <div className="navigation">
       <div className="navigation__block-logo">
         <img src={logoDress} alt=" Иконка платья для логотипа сайта." className="navigation__dress-logo"></img>
-        <p className="navigation__title-logo">Womazing</p>
+        <h1 className="navigation__title-logo">Womazing</h1>
       </div>
       <nav className="navigation__nav">
         <ul className="navigation__items">
