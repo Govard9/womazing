@@ -1,0 +1,9 @@
+.navigation {
+    max-width: 1110px;
+    max-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 54px 0 0 0;
+    margin: 0 auto;
+}
