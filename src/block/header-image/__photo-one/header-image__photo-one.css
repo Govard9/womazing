@@ -1,3 +1,5 @@
 .header-image__photo-one {
-
+    position: absolute;
+    top: 120px;
+    left: 50px;
 }
