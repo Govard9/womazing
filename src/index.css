@@ -33,3 +33,9 @@
 @import url(block/offer/__button-block/offer__button-block.css);
 @import url(block/offer/__icon-arrow/offer__icon-arrow.css);
 @import url(block/offer/__button/offer__button.css);
+
+/* Header-image */
+@import url(block/header-image/header-image.css);
+@import url(block/header-image/__photo-one/header-image__photo-one.css);
+@import url(block/header-image/__photo-two/header-image__photo-two.css);
+@import url(block/header-image/__photo-three/header-image__photo-three.css);
