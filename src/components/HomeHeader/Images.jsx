@@ -1,7 +1,7 @@
 import React from 'react';
-import photoOne from '../images/image-header-1.png';
-import photoTwo from '../images/image-header-2.png';
-import photoThree from '../images/image-header-3.png';
+import photoOne from '../../images/image-header-1.png';
+import photoTwo from '../../images/image-header-2.png';
+import photoThree from '../../images/image-header-3.png';
 
 function ImageHeader() {
   return (

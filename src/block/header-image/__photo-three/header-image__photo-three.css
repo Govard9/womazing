@@ -1,3 +1,5 @@
 .header-image__photo-three {
-
+    position: absolute;
+    bottom: 0;
+    left: -80px;
 }

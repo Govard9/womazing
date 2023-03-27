@@ -1,7 +1,8 @@
 import '../index.css';
 import Navigation from "./NavMenu";
-import TextHeader from "./TextHeader";
-import ImageHeader from "./ImageHeader";
+import Text from "./HomeHeader/Text";
+import Images from "./HomeHeader/Images";
+import Slider from "./HomeHeader/Slider";
 
 function App(props) {
   return (
@@ -10,8 +11,8 @@ function App(props) {
         <Navigation />
       </section>
       <section className="header">
-        <TextHeader/>
-        <ImageHeader/>
+        <Text/>
+        <Images/>
       </section>
     </>
   );

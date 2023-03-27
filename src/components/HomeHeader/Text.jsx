@@ -1,7 +1,8 @@
 import React from 'react';
-import iconArrowDown from "../images/logo/icon-arrow-down.svg";
+import iconArrowDown from "../../images/logo/icon-arrow-down.svg";
+import Slider from "./Slider";
 
-function TextHeader() {
+function Text() {
   return (
     <div className="offer">
       <h2 className="offer__main-text">Новые поступления в этом сезоне</h2>
@@ -11,8 +12,9 @@ function TextHeader() {
         <img className="offer__icon-arrow" src={iconArrowDown} alt=" Иконка кнопки 'Откыть магазин'."/>
         <div className="offer__button">Открыть магазин</div>
       </div>
+      <Slider/>
     </div>
   );
 }
 
-export default TextHeader;
+export default Text;

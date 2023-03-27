@@ -39,3 +39,8 @@
 @import url(block/header-image/__photo-one/header-image__photo-one.css);
 @import url(block/header-image/__photo-two/header-image__photo-two.css);
 @import url(block/header-image/__photo-three/header-image__photo-three.css);
+
+/* Slider */
+@import url(block/slider/slider.css);
+@import url(block/slider/__rectangle/slider__rectangle.css);
+@import url(block/slider/__rectangle/_active/slider__rectangle_active.css);
