@@ -1,0 +1,6 @@
+.new-collection__container-price {
+    display: flex;
+    margin-top: 7px;
+    justify-content: center;
+    gap: 10px;
+}

@@ -1,19 +1,22 @@
 import '../index.css';
-import Navigation from "./NavMenu";
-import Text from "./HomeHeader/Text";
-import Images from "./HomeHeader/Images";
-import Slider from "./HomeHeader/Slider";
+import Navigation from "./HomePage/NavigationMenu/NavMenu";
+import Text from "./HomePage/HomeHeader/Text";
+import Images from "./HomePage/HomeHeader/Images";
+import NewCollection from "./HomePage/MainContent/NewCollection";
 
 function App(props) {
   return (
     <>
-      <section className="nav">
-        <Navigation />
-      </section>
-      <section className="header">
+      <nav className="nav">
+        <Navigation/>
+      </nav>
+      <header className="header">
         <Text/>
         <Images/>
-      </section>
+      </header>
+      <main className="content">
+        <NewCollection/>
+      </main>
     </>
   );
 }

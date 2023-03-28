@@ -1,15 +1,15 @@
 import React from 'react';
-import logoDress from '../images/logo/dress-logo.svg';
-import callOrder from '../images/logo/call-order.svg';
-import shoppingBag from '../images/logo/shopping-bag.svg';
+import logoDress from '../../../images/icon/dress-logo.svg';
+import callOrder from '../../../images/icon/call-order.svg';
+import shoppingBag from '../../../images/icon/shopping-bag.svg';
 
 function Navigation() {
   return (
     <div className="navigation">
-      <div className="navigation__block-logo">
+      <a href="/" className="navigation__block-logo">
         <img src={logoDress} alt=" Иконка платья для логотипа сайта." className="navigation__dress-logo"></img>
         <h1 className="navigation__title-logo">Womazing</h1>
-      </div>
+      </a>
       <nav className="navigation__nav">
         <ul className="navigation__items">
           <li className="navigation__links">
@@ -27,7 +27,9 @@ function Navigation() {
           <a href="tel:74958235412" className="navigation__link-number">+7 (495) 823-54-12</a>
         </p>
       </div>
-      <img src={shoppingBag} alt=" Иконка корзины для покупок." className="navigation__shopping-bag"></img>
+      <a href="/#" className="navigation__link-shop-icon">
+        <img src={shoppingBag} alt=" Иконка корзины для покупок." className="navigation__shopping-bag"></img>
+      </a>
     </div>
   );
 }

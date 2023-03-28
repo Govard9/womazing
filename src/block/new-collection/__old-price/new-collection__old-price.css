@@ -1,0 +1,11 @@
+.new-collection__old-price {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    text-decoration-line: line-through;
+    color: #9C9C9C;
+}

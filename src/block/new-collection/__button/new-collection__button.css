@@ -1,0 +1,14 @@
+.new-collection__button {
+    margin: 65px auto 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 22px 50px;
+    gap: 10px;
+    border: 1px solid #6E9C9F;
+    background: #FFFFFF;
+
+
+}

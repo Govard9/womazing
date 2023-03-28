@@ -33,6 +33,7 @@
 @import url(block/offer/__button-block/offer__button-block.css);
 @import url(block/offer/__icon-arrow/offer__icon-arrow.css);
 @import url(block/offer/__button/offer__button.css);
+@import url(block/offer/__link-button/offer__link-button.css);
 
 /* Header-image */
 @import url(block/header-image/header-image.css);
@@ -44,3 +45,21 @@
 @import url(block/slider/slider.css);
 @import url(block/slider/__rectangle/slider__rectangle.css);
 @import url(block/slider/__rectangle/_active/slider__rectangle_active.css);
+
+/* Content */
+@import url(block/content/content.css);
+
+/* NewCollection */
+@import url(block/new-collection/new-collection.css);
+@import url(block/new-collection/__title/new-collection__title.css);
+@import url(block/new-collection/__card/new-collection__card.css);
+@import url(block/new-collection/__image-container/new-collection__image-container.css);
+@import url(block/new-collection/__image-card/new-collection__image-card.css);
+@import url(block/new-collection/__container/new-collection__container.css);
+@import url(block/new-collection/__title-card/new-collection__title-card.css);
+@import url(block/new-collection/__link/new-collection__link.css);
+@import url(block/new-collection/__container-price/new-collection__container-price.css);
+@import url(block/new-collection/__old-price/new-collection__old-price.css);
+@import url(block/new-collection/__new-price/new-collection__new-price.css);
+@import url(block/new-collection/__link-button/new-collection__link-button.css);
+@import url(block/new-collection/__button/new-collection__button.css);
