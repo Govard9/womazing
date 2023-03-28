@@ -1,4 +1,5 @@
 .navigation__call-order {
     width: 17px;
     height: 17px;
+    cursor: pointer;
 }
