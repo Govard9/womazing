@@ -1,10 +1,10 @@
-.new-collection__title {
-    margin: 0;
+.important__title-trigger {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 110%;
+    font-size: 25px;
+    line-height: 140%;
     letter-spacing: 0.02em;
     color: #000000;
+    margin: 37px 0 0 0;
 }

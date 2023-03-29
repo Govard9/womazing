@@ -53,6 +53,7 @@
 /* NewCollection */
 @import url(block/new-collection/new-collection.css);
 @import url(block/new-collection/__title/new-collection__title.css);
+@import url(block/new-collection/__title/_margin-top/new-collection__title_margin-top.css);
 @import url(block/new-collection/__card/new-collection__card.css);
 @import url(block/new-collection/__image-container/new-collection__image-container.css);
 @import url(block/new-collection/__image-card/new-collection__image-card.css);
@@ -64,3 +65,11 @@
 @import url(block/new-collection/__new-price/new-collection__new-price.css);
 @import url(block/new-collection/__link-button/new-collection__link-button.css);
 @import url(block/new-collection/__button/new-collection__button.css);
+
+/* Important */
+@import url(block/important/important.css);
+@import url(block/important/__triggers/important__triggers.css);
+@import url(block/important/__trigger/important__trigger.css);
+@import url(block/important/__icon/important__icon.css);
+@import url(block/important/__title-trigger/important__title-trigger.css);
+@import url(block/important/__text-trigger/important__text-trigger.css);

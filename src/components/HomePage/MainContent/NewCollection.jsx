@@ -2,13 +2,11 @@ import React from 'react';
 import tshort from '../../../images/NewCollection/t-short__usa.jpg';
 import glow from '../../../images/NewCollection/swimsuit-glow.jpg';
 import sweatshirt from '../../../images/NewCollection/sweatshirt.jpg';
-import TitleContent from "./TitleContent";
-import OpenShopBtn from "../HomeHeader/OpenShopBtn";
 
 function NewCollection(props) {
   return (
     <>
-      <TitleContent/>
+      <h3 className="new-collection__title">Новая коллекция</h3>
       <section className="new-collection">
         <article className="new-collection__card">
           <div className="new-collection__image-container">
@@ -51,7 +49,11 @@ function NewCollection(props) {
           </div>
         </article>
       </section>
-      <OpenShopBtn/>
+      <div className="new-collection__button">
+        <a href="/#" className="new-collection__link-button">
+          Открыть магазин
+        </a>
+      </div>
     </>
 
   );

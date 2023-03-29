@@ -1,14 +1,15 @@
 import '../index.css';
-import Navigation from "./HomePage/NavigationMenu/NavMenu";
+import NavMenu from "./HomePage/NavigationMenu/NavMenu";
 import Text from "./HomePage/HomeHeader/Text";
 import Images from "./HomePage/HomeHeader/Images";
 import NewCollection from "./HomePage/MainContent/NewCollection";
+import Important from "./HomePage/MainContent/Important";
 
 function App(props) {
   return (
     <>
       <nav className="nav">
-        <Navigation/>
+        <NavMenu/>
       </nav>
       <header className="header">
         <Text/>
@@ -16,6 +17,7 @@ function App(props) {
       </header>
       <main className="content">
         <NewCollection/>
+        <Important/>
       </main>
     </>
   );
