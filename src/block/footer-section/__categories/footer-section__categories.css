@@ -1,0 +1,8 @@
+.footer-section__categories {
+    padding: 0;
+    margin: 39px auto 0 calc(50% - 18.4%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 0;
+}

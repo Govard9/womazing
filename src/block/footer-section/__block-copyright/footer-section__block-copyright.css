@@ -1,0 +1,5 @@
+.footer-section__block-copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}

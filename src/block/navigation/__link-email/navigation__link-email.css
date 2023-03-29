@@ -1,11 +1,11 @@
-.navigation__phone-number {
+.navigation__link-email {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 140%;
     letter-spacing: 0.02em;
-    margin: 0 0 0 9px;
-    display: flex;
-    flex-direction: column;
+    color: #000000;
+    text-decoration: none;
+    margin: 9px 0 0 0;
 }

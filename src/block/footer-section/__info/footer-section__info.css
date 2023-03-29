@@ -1,0 +1,6 @@
+.footer-section__info {
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin: 9px auto 0 auto;
+}

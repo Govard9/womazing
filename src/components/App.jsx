@@ -1,10 +1,11 @@
 import '../index.css';
-import NavMenu from "./HomePage/NavigationMenu/NavMenu";
+import NavMenu from "./NavigationMenu/NavMenu";
 import Text from "./HomePage/HomeHeader/Text";
 import Images from "./HomePage/HomeHeader/Images";
 import NewCollection from "./HomePage/MainContent/NewCollection";
 import Important from "./HomePage/MainContent/Important";
 import DreamTeam from "./HomePage/MainContent/DreamTeam";
+import Footer from "./Footer/Footer";
 
 function App(props) {
   return (
@@ -21,6 +22,9 @@ function App(props) {
         <Important/>
         <DreamTeam/>
       </main>
+      <footer className="footer">
+        <Footer/>
+      </footer>
     </>
   );
 }

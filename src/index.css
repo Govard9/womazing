@@ -25,7 +25,9 @@
 @import url(block/navigation/__call-order/navigation__call-order.css);
 @import url(block/navigation/__phone-number/navigation__phone-number.css);
 @import url(block/navigation/__link-number/navigation__link-number.css);
+@import url(block/navigation/__link-email/navigation__link-email.css);
 @import url(block/navigation/__shopping-bag/navigation__shopping-bag.css);
+@import url(block/navigation/__phone-number/_items-right/navigation__phone-number_items-right.css);
 
 /* Offer */
 @import url(block/offer/offer.css);
@@ -84,3 +86,26 @@
 @import url(block/dream-team/__text/dream-team__text.css);
 @import url(block/dream-team/__link/dream-team__link.css);
 @import url(block/dream-team/__block-slider/dream-team__block-slider.css);
+
+/* Footer */
+@import url(block/footer/footer.css);
+
+/* Footer Section */
+@import url(block/footer-section/footer-section.css);
+@import url(block/footer-section/__navigation/footer-section__navigation.css);
+@import url(block/footer-section/__info/footer-section__info.css);
+@import url(block/footer-section/__block-copyright/footer-section__block-copyright.css);
+@import url(block/footer-section/__copyright-text/footer-section__copyright-text.css);
+@import url(block/footer-section/__privacy-policy/footer-section__privacy-policy.css);
+@import url(block/footer-section/__public-offer/footer-section__public-offer.css);
+@import url(block/footer-section/__categories/footer-section__categories.css);
+@import url(block/footer-section/__category/footer-section__category.css);
+@import url(block/footer-section/__link-category/footer-section__link-category.css);
+@import url(block/footer-section/__block-social-and-pay/footer-section__block-social-and-pay.css);
+@import url(block/footer-section/__social-array/footer-section__social-array.css);
+@import url(block/footer-section/__social/footer-section__social.css);
+@import url(block/footer-section/__social-link/footer-section__social-link.css);
+@import url(block/footer-section/__social-icon/footer-section__social-icon.css);
+@import url(block/footer-section/__pay/footer-section__pay.css);
+@import url(block/footer-section/__image-pay/footer-section__image-pay.css);
+@import url(block/footer-section/__array-categories/footer-section__array-categories.css);
