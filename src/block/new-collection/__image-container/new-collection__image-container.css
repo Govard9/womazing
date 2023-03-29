@@ -20,7 +20,7 @@
 
 .new-collection__image-container:hover::before {
     opacity: 1;
-    transition: opacity .3s ease;
+    transition: opacity .5s ease;
 }
 
 .new-collection__image-container::after {
@@ -38,5 +38,5 @@
 
 .new-collection__image-container:hover::after {
     opacity: 1;
-    transition: opacity .3s ease;
+    transition: opacity .5s ease;
 }

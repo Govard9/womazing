@@ -46,6 +46,8 @@
 @import url(block/slider/slider.css);
 @import url(block/slider/__rectangle/slider__rectangle.css);
 @import url(block/slider/__rectangle/_active/slider__rectangle_active.css);
+@import url(block/slider/_dream-team/slider_dream-team.css);
+@import url(block/slider/__rectangle/_dream-team-active/slider__rectangle_dream-team-active.css);
 
 /* Content */
 @import url(block/content/content.css);
@@ -73,3 +75,12 @@
 @import url(block/important/__icon/important__icon.css);
 @import url(block/important/__title-trigger/important__title-trigger.css);
 @import url(block/important/__text-trigger/important__text-trigger.css);
+
+/* Dream Team */
+@import url(block/dream-team/dream-team.css);
+@import url(block/dream-team/__image/dream-team__image.css);
+@import url(block/dream-team/__block-text/dream-team__block-text.css);
+@import url(block/dream-team/__title/dream-team__title.css);
+@import url(block/dream-team/__text/dream-team__text.css);
+@import url(block/dream-team/__link/dream-team__link.css);
+@import url(block/dream-team/__block-slider/dream-team__block-slider.css);
