@@ -8,6 +8,7 @@
     letter-spacing: 0.02em;
     color: #6E9C9F;
     margin: 0 auto;
+    transition: 0.5s ease;
 }
 
 .new-collection__link-button::before {
@@ -17,4 +18,9 @@
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.new-collection__link-button:hover {
+    transition: 0.5s ease;
+    color: #FFFFFF;
 }

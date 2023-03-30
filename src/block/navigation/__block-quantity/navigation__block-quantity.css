@@ -1,0 +1,9 @@
+.navigation__block-quantity {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: -9px;
+    top: -9px;
+    background: #998E78;
+    border-radius: 50px;
+}

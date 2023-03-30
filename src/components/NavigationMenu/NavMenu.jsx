@@ -6,7 +6,7 @@ import shoppingBag from '../../images/icon/shopping-bag.svg';
 function Navigation({footer}) {
   if (footer) {
     return (
-      <div className="navigation">
+      <div className="navigation navigation_footer-center">
         <div className="navigation__block-logo">
           <img src={logoDress} alt=" Иконка платья для логотипа сайта." className="navigation__dress-logo"></img>
           <h1 className="navigation__title-logo">
@@ -65,13 +65,23 @@ function Navigation({footer}) {
           </ul>
         </nav>
         <div className="navigation__call-block">
-          <img src={callOrder} alt=" Иконка телефона для автоматического набора номера"
-               className="navigation__call-order"></img>
+          <span className="navigation__block-call-order">
+            <img src={callOrder} alt=" Иконка телефона для автоматического набора номера"
+                 className="navigation__call-order"/>
+          </span>
           <p className="navigation__phone-number">
             <a href="tel:74958235412" className="navigation__link-number">+7 (495) 823-54-12</a>
           </p>
         </div>
-        <img src={shoppingBag} alt=" Иконка корзины для покупок." className="navigation__shopping-bag"></img>
+        <div className="navigation__counter">
+          <span className="navigation__block-quantity">
+            <p className="navigation__quantity">
+              0
+            </p>
+          </span>
+          <img src={shoppingBag} alt=" Иконка корзины для покупок." className="navigation__shopping-bag"/>
+        </div>
+
       </div>
     );
   }

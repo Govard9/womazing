@@ -19,7 +19,9 @@ function DreamTeam(props) {
           <p className="dream-team__text">
             Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают достоинства каждой девушки.
           </p>
-          <a href="/#" className="dream-team__link">Подробнее о бренде</a>
+          <p className="dream-team__block-link">
+            <a href="/#" className="dream-team__link">Подробнее о бренде</a>
+          </p>
         </div>
       </section>
     </>

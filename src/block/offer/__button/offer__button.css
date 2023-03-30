@@ -13,4 +13,10 @@
     line-height: 138.9%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    transition: .5s ease;
+}
+
+.offer__button:hover {
+    background: #509498;
+    transition: .5s ease;
 }

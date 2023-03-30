@@ -1,0 +1,45 @@
+.navigation__block-call-order {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.navigation__block-call-order::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #6E9C9F;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+.navigation__block-call-order:hover::before {
+    opacity: 1;
+    transition: opacity .5s ease;
+}
+
+.navigation__block-call-order:hover::after {
+    content: '';
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    background: url("../../../images/icon/icon-phone-white.svg") no-repeat;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+.navigation__block-call-order:hover::after {
+    opacity: 1;
+    transition: opacity .5s ease;
+}
