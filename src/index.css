@@ -118,3 +118,14 @@
 @import url(block/footer-section/__pay/footer-section__pay.css);
 @import url(block/footer-section/__image-pay/footer-section__image-pay.css);
 @import url(block/footer-section/__array-categories/footer-section__array-categories.css);
+
+/* Popup */
+@import url(block/popup/popup.css);
+@import url(block/popup/__main-container/popup__main-container.css);
+@import url(block/popup/__close-button/popup__close-button.css);
+@import url(block/popup/__button-request-call/_close/popup__button-request-call_close.css);
+@import url(block/popup/__title/popup__title.css);
+@import url(block/popup/__form/popup__form.css);
+@import url(block/popup/__input/popup__input.css);
+@import url(block/popup/__button-request-call/popup__button-request-call.css);
+@import url(block/popup/_opened/popup_opened.css);

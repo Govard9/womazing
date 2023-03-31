@@ -1,17 +1,31 @@
+import {useState} from "react";
 import '../index.css';
-import NavMenu from "./NavigationMenu/NavMenu";
 import Text from "./HomePage/HomeHeader/Text";
 import Images from "./HomePage/HomeHeader/Images";
 import NewCollection from "./HomePage/MainContent/NewCollection";
 import Important from "./HomePage/MainContent/Important";
 import DreamTeam from "./HomePage/MainContent/DreamTeam";
 import Footer from "./Footer/Footer";
+import PopupCallback from "./Popup/PopupCallback";
+import PopupSuccess from "./Popup/PopupSuccess";
+import Navigation from "./NavigationMenu/Navigation";
 
 function App(props) {
+
+  const [popupIsOpen, setPopupIsOpen] = useState(false);
+
+  const handlePopupOpened = () => {
+    setPopupIsOpen(true);
+  }
+
+  const handlePopupClosed = () => {
+    setPopupIsOpen(false);
+  }
+
   return (
     <>
       <nav className="nav">
-        <NavMenu/>
+        <Navigation onPopup={handlePopupOpened} />
       </nav>
       <header className="header">
         <Text/>
@@ -25,6 +39,11 @@ function App(props) {
       <footer className="footer">
         <Footer/>
       </footer>
+      <PopupCallback
+        isOpen={popupIsOpen}
+        onClose={handlePopupClosed}
+      />
+      <PopupSuccess/>
     </>
   );
 }

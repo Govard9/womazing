@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from "../NavigationMenu/NavMenu";
+import Navigation from "../NavigationMenu/Navigation";
 import instagram from "../../images/icon/icon-social-instagram.svg";
 import facebook from "../../images/icon/icon-social-facebook.svg";
 import twitter from "../../images/icon/icon-social-twitter.svg";

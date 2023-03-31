@@ -1,0 +1,14 @@
+.popup__button-request-call_close {
+    width: 168px;
+    height: 68px;
+    background: #FFFFFF;
+    border: 1px solid #6E9C9F;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #6E9C9F;
+}
