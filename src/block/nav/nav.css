@@ -1,4 +1,8 @@
 .nav {
-    max-width: 1370px;
-    margin: 0 0 0 auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }

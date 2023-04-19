@@ -4,7 +4,7 @@ import callOrder from '../../images/icon/call-order.svg';
 import shoppingBag from '../../images/icon/shopping-bag.svg';
 
 
-function Navigation({footer, onPopup, }) {
+function Navigation({footer, onPopup}) {
 
   if (!footer) {
     return (

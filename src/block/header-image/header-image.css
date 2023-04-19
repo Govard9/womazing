@@ -1,6 +1,9 @@
 .header-image {
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 740px;
     height: 826px;
     background: #F1EADC;
+    z-index: 0;
 }
