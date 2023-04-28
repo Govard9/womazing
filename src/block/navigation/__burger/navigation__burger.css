@@ -1,0 +1,12 @@
+.navigation__burger {
+    display: none;
+}
+
+@media screen and (max-width: 826px) {
+    .navigation__burger {
+        display: flex;
+        width: 24px;
+        height: 27px;
+        cursor: pointer;
+    }
+}

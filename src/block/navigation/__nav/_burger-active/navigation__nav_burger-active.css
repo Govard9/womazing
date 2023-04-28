@@ -1,0 +1,12 @@
+.navigation__nav_burger-active {
+    display: none;
+}
+
+@media screen and (max-width: 826px){
+    .navigation__nav_burger-active {
+        display: flex;
+        width: 24px;
+        height: 27px;
+        cursor: pointer;
+    }
+}

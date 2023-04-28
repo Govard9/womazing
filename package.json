@@ -1,6 +1,7 @@
 {
   "name": "womazing",
   "version": "0.1.0",
+  "homepage": "https://govard9.github.io/womazing",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -17,7 +18,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server -w server/db.json -p 3001"
+    "server": "json-server -w server/db.json -p 3001",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +42,7 @@
   },
   "devDependencies": {
     "concurrently": "^7.6.0",
+    "gh-pages": "^5.0.0",
     "json-server": "^0.17.2"
   }
 }
