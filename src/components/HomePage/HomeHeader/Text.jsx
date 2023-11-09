@@ -5,7 +5,7 @@ import Slider from "./Slider";
 function Text() {
   return (
     <div className="offer">
-      <h2 className="offer__main-text">Новые поступления в этом сезоне</h2>
+      <h2 className="offer__main-text">Новые пщступления в этом сезоне</h2>
       <p className="offer__description">Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом сезоне.
         Время исследовать.</p>
       <div className="offer__button-block">
